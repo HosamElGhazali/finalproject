@@ -26,9 +26,8 @@ class App_utils:
                 pass
 
     @staticmethod
-    def check_input_is_digit(*input):
+    def check_input_is_digit(*inpu):
         for item in input:
             if str(item).isdigit():
                 print("wrong input,please try again")
                 exit()
-
