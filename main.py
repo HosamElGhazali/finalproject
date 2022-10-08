@@ -45,6 +45,7 @@ if user_type=="1":
       App_utils.check_input_is_empty(client_full_name, age,phone_number,id_no)
 
       at.register_new_client(Client(full_name = client_full_name,age = age,phone_number = phone_number,id_no=id_no,id= int(at.get_client_last_id())+1))
+
       print("this is your id number",str(at.get_client_last_id()))
 
 

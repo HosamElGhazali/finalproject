@@ -66,7 +66,7 @@ class Auth:
         self.orders_list.append(order)
     def check_if_the_client_exist(self,client_id) :
         for item in self.client_list:
-            if client_id== item.get_id():
+            if int(client_id)== int(item.get_id()):
                 return True
         else:
                print("wrong client id")
