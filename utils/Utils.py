@@ -25,7 +25,7 @@ class App_utils:
             else :
                 pass
 
-
+    @staticmethod
     def check_input_is_digit(*input):
         for item in input:
             if str(item).isdigit():
