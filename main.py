@@ -21,6 +21,8 @@ if user_type!="1" and user_type!="2":
 if user_type=="1":
      print("enter 1 to log in\nenter 2 to register")
      log_type=input("enter here:")
+     if log_type != "1" and log_type != "2":
+         print("error")
      App_utils.check_input_is_empty(log_type)
 
 
@@ -106,6 +108,8 @@ if user_type=="1":
 if user_type=="2":
     print("enter 1 to log in\nenter 2 to register")
     log_type = input("enter here:")
+    if log_type != "1" and log_type != "2":
+        print("error")
     App_utils.check_input_is_empty(log_type)
 
     if log_type=="1":
