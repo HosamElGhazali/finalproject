@@ -192,7 +192,7 @@ if user_type=="2":
         at.show_all_clients()
         second_librarian_operation = input("1-if you want to search for a specific client\n2-exit\nenter here:")
         App_utils.check_input_is_empty(second_librarian_operation)
-        if second_librarian_operation=="1"or second_librarian_operation=="f you want to search for a specific client":
+        if second_librarian_operation=="1"or second_librarian_operation=="if you want to search for a specific client":
             client_id=input("enter the client id:")
             App_utils.check_input_is_empty(client_id)
             at.check_if_the_client_exist(client_id=client_id)
