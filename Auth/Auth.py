@@ -121,7 +121,7 @@ class Auth:
         for item in self.borrowed_books_list:
             if item.get_Book_id()==book_id:
                 break
-            else:
+        else:
                 print("the book is not borrowed")
                 exit()
     def show_the_client_orders(self,client_id):
